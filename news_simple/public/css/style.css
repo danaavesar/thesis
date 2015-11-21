@@ -1,0 +1,32 @@
+/* your style begins here */
+	#headlines {
+		margin: auto;
+		margin-top: 200px;
+		width: 1000px;
+		cursor: pointer;
+		font-size: 40px;
+		 -webkit-transform-style: preserve-3d;
+		-webkit-perspective: 1000;
+		transform-style: preserve-3d;
+		perspective: 1000px;
+		perspective-origin: 10% 10%;
+
+
+	}
+
+	.main-sentence {
+		float: left;
+	}
+
+	.related-action {
+
+		display: block;
+		position: absolute;
+	/*	-webkit-transform: translateZ(-400px);
+    	-webkit-transform-style: preserve-3d;
+    	transform: translateZ(-400px);
+    	transform-style: preserve-3d;*/
+
+
+
+	}

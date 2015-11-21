@@ -1,0 +1,79 @@
+Domains and Precedents
+ News Website Project 
+
+Dana Avesar
+
+
+Domains
+Data Visualization + Design
+Data Visualization will be a huge part of my project. This project will only succeed if the design works well. I am comparing a large amount of data from around the world and this data needs to be presented and compared in a way that is interesting and makes meaning for the user. 
+Journalism 
+This is also one of the main domains I’m working with because I’m questioning Journalistic practices and how that effects the public opinion. I am also insinuating that a single source is not enough to convey a complicated issue, especially a issue that may be far away an un relatable to the user. I want to pull all the current Journalistic pieces on the web together to form a more comprehensive story.
+Public Opinion
+I am dealing with this domain of public opinion that is formed from the media we digest. I want users to be more well informed through an efficient usage of online materials. 
+
+Precedents
+Google News
+This is one of the most important of my precedents because it does a large part of what I want to do which is aggregate sources related to a query topic. When you query a word or phrase on Google News it gives you a vertical list of articles that include your search query in the headline, as well as some photos. However what isn’t clear to me as how the selection of headlines is made. Currently Google News is the closest to what I want to achieve simply because it gives you a list of headlines to compare right next to each other. 
+
+Media Cloud
+
+
+One of Media Cloud’s main feature is the Media Meter Dashboard. This is a tool that counts most used words related to a query amongst a choice of different sources. It orders the words from biggest to smallest based off most commonly used words. It also allows you to make multiple queries at the same time and shows a graphical representation of how many times your query word was used within a time frame that you can select from. 
+
+I think that the most interesting data lies in the graph. It clearly shows us the trajectory of discussion about this topic in certain sources or countries. Also it can be interesting to query two topics and see if the discussion around these topics relate to each other, for example whether they are talked about at the same time or asynchronously.  
+On the other hand I don’t think that the word cloud comparison is very successful. What it does give us is a general picture of the type of rhetoric happening around a certain topic, however it doesn’t draw enough meaningful comparisons for the viewer.  For example here are the words I get when I query the word “Israel” in CNN and in FOX. The word count comparer doesn’t show us why the difference in words are important or significant.
+
+Another Media Cloud tool is Mapping the Globe. This tool maps articles from the Boston Globe on a an interactive map. Users can zoom into locations and click on articles in that region. There is list of most commonly used words for that region. The purpose of the project is to help understand where the Boston Globe directs its attention
+
+
+
+
+
+
+I think the data in this project is interesting but the visualization and the interface is poorly designed and hard to use, which makes it hard to use and understand the significance of the data. 
+
+Newsmap.jp
+newsmap.jp is developed by a great designer named Marcos Weskamp, who also designed Flipbook. The design is simple but very powerful. It gives you news headlines from one particular country divided into subject categories marked by different colors. the larger the headlines the more they are talked about, and the more headlines there are from that particular subject the more space it takes on the screen. You can change views to see how this differs from country to country. This is interesting because it clearly visualizes what subject and topic is being talked about most in any given country, and shows us how this can be different depending on your country. As you hover over the headline it tells you how many more articles there are that relate to that headline, but when you click you only have the option to view only one of them.
+
+
+
+Reddit
+Another precedent is Reddit. The idea of this website is basically to let the mass public determine what is and what isn’t newsworthy. Registered users submit the content, which could be their own written post or a link to something else from another site. Then users can vote up and down what they think should be featured at the top of the site’s page. There are many interesting aspects of this site, including that the agenda of what is talked about gets determined by the general public instead of a small group of people working at a news organization. Also it allows for a plurality of views. If one person submits an article, another can submit something similar offering a different point of view. Users also have a chance to tag the articles in categories they think are appropriate. However it doesn’t aggregate all the content about one topic in the same place and compares them, like I want to do. 
+
+
+Community of Practice
+If I understand what a community of practice is, I think it is the other people who also share this profession or who are doing similar things. My first community pf practice would be other data visualizers. Second a large community of practice would be the media studies community as well as online news sites. People who study journalistic practices and who aggregate the news. 
+
+Works Cited
+Texts
+The following texts are from my media studies class last year that all affected my thinking about the way that news functions and spreads in our current culture and through our online infrastructure:
+
+Ethan Zuckerman, “International reporting in the age of participatory media (Links to an external site.),” Daedelus, Spring, Vol. 139, No. 2, pp. 66-75, 2010.
+
+Manuel Castells,  2008, “The New Public Sphere: Global Civil Society, Communication Networks, and Global Governance (Links to an external site.),” The Annals of the American Academy of Political and Social Science, 616: 78-93.
+
+Benjamin Page, 1996, Who Deliberates? Mass Media and Modern Democracy, Chapter 1, “Public Deliberation and Democracy”)
+
+
+The following texts were influential from Design for This Century about how what we design can affect the way we think/act/and see things:
+
+Michel Serres: “Thumbelina/Petit Pouchette” (2013)
+
+Clive Dilnot: “Readings to be Cheerful, 1, 2, 3 … or How the Artificial May Yet Save 
+
+Us” (2014)
+
+Herbert Simon: The Sciences of the Artificial: "Natural and Artificial Systems (1996)
+
+Walter Benjamin: The epilogue to the essay “The Work of Art in the Age of
+
+Mechanical Reproduction”
+
+Marshall Mcluhan The Medium Is  the Message
+
+
+Further Research
+Journalism + Design department Parsons
+David Caroll
+
