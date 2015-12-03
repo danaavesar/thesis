@@ -82,7 +82,7 @@ app.main = (function() {
 			console.log("beforeSubj is: " + beforeSubj);
 
 			//subject
-			var subjDiv = $('<div/>').addClass('subject main-sentence').html(mainSubject);
+			var subjDiv = $('<div/>').addClass('main-subject main-sentence').html(mainSubject);
 			$("#main-headline").append(subjDiv);
 			console.log('mainSubject is: ' + mainSubject);
 
@@ -94,7 +94,7 @@ app.main = (function() {
 			console.log('betweenSubjAction is: ' + betweenSubjAction);
 
 			//action
-			var actDiv = $('<div/>').addClass('action main-sentence').html(mainAction);
+			var actDiv = $('<div/>').addClass('main-action main-sentence').html(mainAction);
 			$("#main-headline").append(actDiv);
 			console.log('action is: ' + mainAction);
 
@@ -113,7 +113,7 @@ app.main = (function() {
 			console.log("beforeAct is: " + beforeAct);
 
 			//action
-			var actDiv = $('<div/>').addClass('action main-sentence').html(mainAction);
+			var actDiv = $('<div/>').addClass('main-action main-sentence').html(mainAction);
 			$("#main-headline").append(actDiv);
 			console.log('action is: ' + mainAction);
 		
@@ -125,7 +125,7 @@ app.main = (function() {
 			console.log('betweenActionSubj is: ' + betweenActionSubj);
 
 			//subject
-			var subjDiv = $('<div/>').addClass('subject main-sentence').html(mainSubject);
+			var subjDiv = $('<div/>').addClass('main-subject main-sentence').html(mainSubject);
 			$("#main-headline").append(subjDiv);
 			console.log('mainSubject is: ' + mainSubject);
 
@@ -138,14 +138,14 @@ app.main = (function() {
 		}
 
 //--------- find all other actions and subjects -------------- //
-
+		var numOfRelations = 0;
 		for(var i=0; i< headlineArray.length; i++){
-			if(headlineArray[i].relations[0] != null){
+			if(headlineArray[i].relations[0] != undefined){
 				var action = headlineArray[i].relations[0].action.text;
 				var subject = headlineArray[i].relations[0].subject.text;
 				console.log("action " + action + " subject " + subject);
-
-				appendRelations(action, subject, i);
+				numOfRelations ++;
+				appendRelations(action, subject, numOfRelations);
 			}
 		}
 
@@ -154,9 +154,26 @@ app.main = (function() {
 
 	var appendRelations = function(action, subject, i){
 		console.log("appendRelations was called");
-		var actionDiv = $('<div/>').addClass('related-action').html(action);
+		var actionDiv = $('<div/>').addClass('related-action').attr('id', 'action' + i).html(action);
 		var relHeadlineDiv = $('<div/>').attr('id', i).addClass('related-headline').html(actionDiv);
 		$('#headlines').prepend(relHeadlineDiv);
+		//get location of action in the main sentence:
+		var mainActionPos = $(".main-action").position();
+		// console.log("main action position is: " + mainActionPos.left);
+		//give it a translatez 
+		var zAmount = -i*1000;
+		var opacity = (70 - i*10)/100;
+		console.log("zAmount is: " + zAmount);
+		$("#action" + i).css({		
+			"-webkit-transform": 'translateZ(' +zAmount + 'px)',
+	    	"transform": 'translateZ(' + zAmount + 'px)',
+	    	"opacity": opacity
+		});
+		
+		//set position of all other actions to that position
+		$(".related-action").css({
+			"margin-left" : mainActionPos.left,
+		});
 
 	}
 

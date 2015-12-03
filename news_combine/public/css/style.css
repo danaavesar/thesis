@@ -1,0 +1,113 @@
+/* your style begins here */
+	body{
+		background-color: #212121;
+		font-family: 'Libre Baskerville', serif;
+	}
+	#headlines {
+		margin: auto;
+		margin-top: 200px;
+		width: 1000px;
+		cursor: pointer;
+		font-size: 40px;
+		 -webkit-transform-style: preserve-3d;
+		-webkit-perspective: 1000;
+		transform-style: preserve-3d;
+		perspective: 5000px;
+		perspective-origin: 20% -200%;
+		position: absolute;
+		color: white;
+
+	}
+
+	.main-sentence {
+		float: left;
+	}
+
+	.related-action {
+
+		display: block;
+		position: absolute;
+
+    	-webkit-transform-style: preserve-3d;
+    	transform-style: preserve-3d;
+
+
+
+	}
+	input[type=text],[type=number] {
+  			border: none;
+  			border-bottom: solid;
+  			font-size: 60px;
+  			text-shadow: 10px 0px 10px gray;
+  			color: white;
+  			font-family: 'Poiret One', cursive;
+  			-webkit-transition: stroke-dashoffset 0.3s;
+  			margin-top: -20px;
+  			background-color: transparent;
+  			text-align: center;
+		}
+		input::-webkit-input-placeholder {
+		   text-shadow: none;
+		   color: white;
+		}
+
+		input::-moz-placeholder { /* Firefox 18- */
+		   text-shadow: none; 
+		   color: white;
+		}
+
+		input::-moz-placeholder {  /* Firefox 19+ */
+		   text-shadow: none;
+		   color: white;
+		}
+
+		input::-ms-input-placeholder {  
+		   text-shadow: none;
+		   color: white;
+		}
+
+		input:focus::-webkit-input-placeholder { color:transparent; }
+		input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+		input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+		input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+		input[type=text]:focus, [type=number]:focus{
+			outline: none;
+			stroke-dashoffset: 0;
+		}
+		::-moz-selection { /* Code for Firefox */
+    		background: yellow;
+		}
+		#search-button{
+			border: white solid 1px;
+  			font-size: 30px;
+  			color: white;
+  			font-family: 'Poiret One', cursive;
+  			width: 140px;
+  			height: 40px;
+  			background: none;
+  			clear: both;
+		}
+		#search-button:active{
+			outline: none;
+			color: grey;		
+		}
+		#search-button:focus{
+			outline:none;
+			cursor: pointer;
+		}
+		#date-search{
+			clear: both;
+			margin-top: 40px;
+		}
+		#query-box{
+			clear: both;
+		}
+		#main-search-page{
+			font-family: 'Poiret One', serif;
+			font-size: 60px;
+			color: white;
+			width: 900px;
+			margin: 0 auto;
+			text-align: center;
+		}

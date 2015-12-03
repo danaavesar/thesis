@@ -1,4 +1,7 @@
 /* your style begins here */
+	body{
+		background-color: #212121;
+	}
 	#headlines {
 		margin: auto;
 		margin-top: 200px;
@@ -8,9 +11,10 @@
 		 -webkit-transform-style: preserve-3d;
 		-webkit-perspective: 1000;
 		transform-style: preserve-3d;
-		perspective: 1000px;
-		perspective-origin: 10% 10%;
-
+		perspective: 5000px;
+		perspective-origin: 20% -200%;
+		position: absolute;
+		color: white;
 
 	}
 
@@ -22,10 +26,9 @@
 
 		display: block;
 		position: absolute;
-	/*	-webkit-transform: translateZ(-400px);
+
     	-webkit-transform-style: preserve-3d;
-    	transform: translateZ(-400px);
-    	transform-style: preserve-3d;*/
+    	transform-style: preserve-3d;
 
 
 

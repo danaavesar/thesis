@@ -1,0 +1,24 @@
+{
+  "name": "Dana",
+  "version": "0.0.0",
+  "description": "",
+  "main": "alchemyapi.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "ffi": "^2.0.0",
+    "ref": "latest",
+    "ref-struct": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "mocha": "latest",
+    "should": "latest"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
